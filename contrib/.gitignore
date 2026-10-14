@@ -1,0 +1,19 @@
+# Ignore everything by default, contrib sources are coming from other places
+*
+
+# Include specific files that should be tracked by Git
+!.gitignore
+
+# Track nr module (ETRI V2X fork of cttc-lena/nr)
+!nr/
+nr/*
+!nr/**
+
+# Track mpquic module
+!mpquic/
+mpquic/*
+!mpquic/**
+
+# Exclude TiL model code and SUMO scenarios (proprietary)
+nr/examples/nr-v2x-examples/til_model/
+nr/examples/nr-v2x-examples/til_model/**
