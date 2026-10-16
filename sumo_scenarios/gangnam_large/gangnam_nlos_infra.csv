@@ -1,0 +1,14 @@
+# Infrastructure template for topoMode=gangnam_nlos
+# Map bounds: X=[2000, 4000] m, Y=[2000, 4000] m  (2 km x 2 km area, high building density)
+# Place gNBs and RSUs anywhere within these bounds.
+# Format: type,x,y[,z]  (one node per line; lines starting with '#' are ignored)
+#
+# Example (2x2 gNB grid + 4 RSUs — adjust to your layout):
+# gnb,2300.0,2300.0
+# gnb,3700.0,2300.0
+# gnb,2300.0,3700.0
+# gnb,3700.0,3700.0
+# rsu,2600.0,3000.0
+# rsu,3000.0,2600.0
+# rsu,3400.0,3000.0
+# rsu,3000.0,3400.0

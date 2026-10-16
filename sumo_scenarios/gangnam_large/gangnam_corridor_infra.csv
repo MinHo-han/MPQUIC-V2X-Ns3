@@ -1,0 +1,14 @@
+# Infrastructure template for topoMode=gangnam_corridor
+# Map bounds: X=[4000, 6000] m, Y=[4000, 6000] m  (2 km x 2 km area)
+# Place gNBs and RSUs anywhere within these bounds.
+# Format: type,x,y[,z]  (one node per line; lines starting with '#' are ignored)
+#
+# Example (2x2 gNB grid + 4 RSUs — adjust to your layout):
+# gnb,4500.0,4500.0
+# gnb,5500.0,4500.0
+# gnb,4500.0,5500.0
+# gnb,5500.0,5500.0
+# rsu,4500.0,5000.0
+# rsu,5000.0,4500.0
+# rsu,5500.0,5000.0
+# rsu,5000.0,5500.0

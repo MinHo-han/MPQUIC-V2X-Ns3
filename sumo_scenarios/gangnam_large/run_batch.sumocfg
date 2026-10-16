@@ -1,0 +1,14 @@
+<configuration>
+  <input>
+    <net-file value="gangnam_final.net.xml"/>
+    <route-files value="routes_batch.xml"/>
+  </input>
+  <output>
+    <fcd-output value="fcd_batch.xml"/>
+  </output>
+  <time>
+    <begin value="0"/>
+    <end value="300"/>
+    <step-length value="1.0"/>
+  </time>
+</configuration>

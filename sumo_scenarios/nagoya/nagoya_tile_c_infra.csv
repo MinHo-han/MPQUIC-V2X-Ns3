@@ -1,0 +1,14 @@
+# Infrastructure template for topoMode=nagoya_tile_c
+# Map bounds: X=[0, 2000] m, Y=[0, 2000] m  (2 km x 2 km tile)
+# Place gNBs and RSUs anywhere within these bounds.
+# Format: type,x,y[,z]  (one node per line; lines starting with '#' are ignored)
+#
+# Example (2x2 gNB grid + 4 RSUs at junctions — adjust to your layout):
+# gnb,500.0,500.0
+# gnb,1500.0,500.0
+# gnb,500.0,1500.0
+# gnb,1500.0,1500.0
+# rsu,500.0,1000.0
+# rsu,1000.0,500.0
+# rsu,1500.0,1000.0
+# rsu,1000.0,1500.0
